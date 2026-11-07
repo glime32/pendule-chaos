@@ -27,7 +27,7 @@ Zoom sur la frontière (`--centre 1.9 2.4 --largeur 0.8`) : la structure continu
 
 ```sh
 make
-./pendule bascule -o bascule.png                   # ~10 s sur 8 cœurs en 600×600
+./pendule bascule -o bascule.png                   # ~7 s sur 8 cœurs en 600×600
 ./pendule lyapunov --taille 400 -o lyapunov.png
 ./pendule bascule --centre 1.9 2.4 --largeur 0.8 -o zoom.png
 ./pendule --video film --images 120 --taille 400   # puis :
